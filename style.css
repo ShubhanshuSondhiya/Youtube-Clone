@@ -108,14 +108,14 @@ nav{
 }
 .container{
     background: #f9f9f9;
-    padding-left: 19%;
+    padding-left: 17%;
     padding-right: 2%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .list-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-column-gap: 16px;
     grid-row-gap: 40px;
     margin-top: 15px;
@@ -151,10 +151,9 @@ nav{
     .sidebar{
         display: none;
     }
-    .container,.list-container{
+    .container, .list-container{
         padding-left: 5%;
         padding-right: 5%;
-        width: fit-content;
     }
     .nav-right img{
         display: none;
