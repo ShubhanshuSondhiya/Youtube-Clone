@@ -154,6 +154,7 @@ nav{
     .container,.list-container{
         padding-left: 5%;
         padding-right: 5%;
+        width: fit-content;
     }
     .nav-right img{
         display: none;
